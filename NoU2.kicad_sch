@@ -1582,6 +1582,12 @@
     (uuid ff625ae6-9f0b-4268-b831-3fa162ec9528)
   )
 
+  (text "possible alternitive\nhttp://www.princeton.com.tw/Portals/0/Product/PT5619-s.pdf"
+    (at 123.19 116.84 0)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid b19f96be-e0f1-470a-8d07-f9f779f53f1e)
+  )
+
   (global_label "VIN" (shape input) (at 241.3 123.19 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left))
     (uuid 02dd3d55-1d04-4a70-b37e-7ec5f8775c55)
