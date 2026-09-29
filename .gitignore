@@ -12,14 +12,20 @@
 *.sch-bak
 *.log
 *~
+*.lck
 
 _autosave-*
 *.tmp
 *-save.pro
 *-save.kicad_pcb
 fp-info-cache
-#auto_saved_files#
-jlcpcb
+\#auto_saved_files#
+
+# KiCad local history (one git repo per project, KiCad 10+)
+.history/
+
+# Timestamped backup zips from the JLCPCB fabrication plugin
+**/production*/backups/
 
 # Netlist files (exported from Eeschema)
 *.net
@@ -31,3 +37,11 @@ jlcpcb
 # Exported BOM files
 *.xml
 *.csv
+
+# Fabrication outputs (not tracked in this repo)
+jlcpcb
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
